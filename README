@@ -1,0 +1,14 @@
+Facebook Comments is a CodeIgniter library which makes it easy to put Facebook Comments on every page
+
+Requirements
+
+    PHP 5+
+    CodeIgniter 1.7.x - 2.0-dev
+
+Usage
+
+$this->fb_comments->create($page, $num_post, $width);
+
+Example
+
+$this->fb_comments->create('controller/function', '10', '400');
